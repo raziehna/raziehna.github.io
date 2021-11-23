@@ -1,0 +1,27 @@
+
+/* Style Definitions and General Formatting */
+
+body 
+{
+    color: #000; background: #fff; margin: 2%; padding: 0; 
+    font-family: Verdana, Geneva, Arial, sans-serif; 
+    text-align: center; 
+}
+
+html body { font-size: 10pt; }
+
+h1 { font-size: 160%; line-height: 190%; color: black; font-weight: normal;} 
+
+img { border: 0; }	 
+
+a:link    {color: #0000cc; text-decoration: underline; }
+a:visited {color: #0000cc; text-decoration: underline; }
+a:active  {color: #0000cc; text-decoration: underline; }
+a:hover   {color: #0000cc; text-decoration: underline; }
+
+p, td, li, ul, ol, h1, h2, h3, h4, h5, h6 
+{
+    line-height: 130%;
+}
+
+
