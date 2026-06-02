@@ -205,7 +205,7 @@ p { margin: 0 0 1rem; }
 .section-heading { display: flex; align-items: end; justify-content: space-between; gap: 1rem; margin-bottom: 1.2rem; }
 .section-heading .eyebrow { margin-bottom: .55rem; }
 .theme-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .95rem; }
-.theme-card { position: relative; min-height: 240px; display: flex; flex-direction: column; justify-content: space-between; gap: 1rem; text-decoration: none; background: rgba(255,255,255,.76); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.25rem; box-shadow: 0 12px 32px rgba(45,37,28,.045); transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease; }
+.theme-card { position: relative; min-height: 220px; display: flex; flex-direction: column; justify-content: space-between; gap: 1rem; text-decoration: none; background: rgba(255,255,255,.76); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.25rem; box-shadow: 0 12px 32px rgba(45,37,28,.045); transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease; }
 .theme-card:hover { color: var(--ink); transform: translateY(-4px); border-color: rgba(111,78,55,.28); box-shadow: 0 20px 50px rgba(45,37,28,.09); }
 .theme-number { color: var(--accent); font-weight: 750; letter-spacing: .08em; font-size: .8rem; }
 .theme-card h3 { font-family: Georgia, 'Times New Roman', serif; font-size: clamp(1.28rem, 2vw, 1.65rem); letter-spacing: -.035em; margin: 0; }
