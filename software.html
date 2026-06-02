@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Software | Razieh Nabi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;550;650;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <nav class="navbar" aria-label="Main navigation">
+    <a class="brand" href="index.html"></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <div class="nav-links" id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="software.html" aria-current="page">Software</a>
+      <a href="people.html">People</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="consulting.html">Consulting</a>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+
+<section class="software-hero">
+  <div class="container software-hero-grid">
+    <div>
+      <p class="eyebrow">Software</p>
+      <p class="lede software-intro">My research group develops open-source software that translates methodological advances in causal and statistical inference into tools that researchers can use in practice. </p>
+    </div>
+    <aside class="software-lens" aria-label="Software focus summary">
+      <div>
+        <p class="lens-label">Code philosophy</p>
+        <p class="lens-text">Methods should be usable, reproducible, and transparent.</p>
+      </div>
+      
+    </aside>
+  </div>
+</section>
+
+<section class="section compact software-section" id="general-packages">
+  <div class="container">
+  
+    <div class="package-grid">
+
+      <article class="package-card">
+        <p class="package-kicker">R package</p>
+        <h3>flexCausal</h3>
+        <div class="package-meta"><span>Causal effects</span><span>Hidden/Unmeasured/Latent variables</span><span>TMLE/One-step estimator</span><span>Double-Debiased ML</span></div>
+        <p>Flexible estimation of non-parametrically identifiable average causal effects in graphical models with unmeasured variables, including one-step corrected plug-in and targeted minimum loss-based estimators.</p>
+        <div class="package-actions">
+          <a class="mini-button primary" href="https://github.com/annaguo-bios/flexcausal" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a class="mini-button" href="https://cran.r-project.org/package=flexCausal" target="_blank" rel="noopener noreferrer">CRAN</a>
+        </div>
+      </article>
+
+      <article class="package-card">
+        <p class="package-kicker">R package</p>
+        <h3>flexPaths</h3>
+        <div class="package-meta"><span>Causal mediation</span><span>Causal path-specific effects</span><span>Double-Debiased ML</span><span>Longitudinal studies</span></div>
+        <p>Flexible estimation of path-specific causal effects in mediation analyses with multiple ordered mediators and multiple treatments. Supports influence-function based estimation and flexible pathway decompositions.</p>
+        <div class="package-actions">
+          <a class="mini-button primary" href="https://github.com/xxou/flexPaths" target="_blank" rel="noopener noreferrer">GitHub</a> 
+        </div>
+      </article>
+
+      <article class="package-card">
+        <p class="package-kicker">R package</p>
+        <h3>flexMissing</h3>
+        <div class="package-meta"><span>Missing data</span><span>Graphical models</span><span>Missing-not-at-random</span><span>Identification and estimation</span></div>
+        <p>Weighting-based identification and estimation of target parameters in graphical models with missing data, supporting MCAR, MAR, and MNAR settings. Flexible  paraemter estimators can also leverage machine learning methods.</p>
+        <div class="package-actions">
+          <a class="mini-button primary" href="https://github.com/annaguo-bios/flexMissing" target="_blank" rel="noopener noreferrer">GitHub</a>  
+        </div>
+      </article>
+
+      <article class="package-card">
+        <p class="package-kicker">Python package</p>
+        <h3>Ananke</h3>
+        <div class="package-meta"><span>Graphical models</span><span>Identification</span><span>Parametric estimation</span><span>Linear SEMs</span></div>
+        <p>Tools for causal inference with graphical models, including constructing and visualizing causal graphs, identifying causal effects, and performing (semi)parametric estimation across a variety of causal structures.</p>
+        <div class="package-actions">
+          <a class="mini-button primary" href="https://gitlab.com/causal/ananke" target="_blank" rel="noopener noreferrer">GitLab</a>
+          <a class="mini-button" href="https://ananke.readthedocs.io/" target="_blank" rel="noopener noreferrer">Documentation</a>
+          <a class="mini-button" href="https://arxiv.org/abs/2301.11477" target="_blank" rel="noopener noreferrer">Package Paper</a>
+        </div>
+      </article>
+
+      <article class="package-card">
+        <p class="package-kicker">R package</p>
+        <h3>coxphMIC</h3>
+        <div class="package-meta"><span>Survival analysis</span><span>Sparse estimation</span></div>
+        <p>Sparse estimation of Cox proportional hazards models via approximated information criteria.</p>
+        <div class="package-actions">
+          <a class="mini-button primary" href="https://cran.r-project.org/src/contrib/Archive/coxphMIC/" target="_blank" rel="noopener noreferrer">R Repository</a>
+          <a class="mini-button" href="https://journal.r-project.org/articles/RJ-2017-018/RJ-2017-018.pdf" target="_blank" rel="noopener noreferrer">Package Paper</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!--
+<section class="section compact software-section" id="request-code">
+  <div class="container">
+    <div class="resource-note">
+      <div>
+        <p class="eyebrow">Need code?</p>
+        <h2>Some older repositories are still being organized.</h2>
+        <p>If code for a paper is not listed, please contact me and I will share the most relevant repository or replication files when available.</p>
+      </div>
+      <a class="button" href="mailto:razieh.nabi@emory.edu">Request code</a>
+    </div>
+  </div>
+</section>
+-->
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>© <span id="year">2026</span> Razieh Nabi</div>
+
+    <div class="footer-socials">
+      <a href="mailto:razieh.nabi@emory.edu" aria-label="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+
+      <a href="https://scholar.google.com/citations?user=nmcANMEAAAAJ&hl=en"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="Google Scholar">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+
+      <a href="https://www.linkedin.com/in/raziehnabi/"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+
+      <a href="https://bsky.app/profile/raziehnabi.bsky.social"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="Bluesky">
+        <i class="fa-brands fa-bluesky"></i>
+      </a>
+    </div>
+  </div>
+</footer> 
+
+<script src="script.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
